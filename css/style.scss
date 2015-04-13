@@ -68,16 +68,16 @@ body {
     font-weight: 200;
 }
 
-@media (min-width: $bp-medium) {
+/* @media (min-width: $bp-medium) {
     body {
-        background-image: url(../img/lego-tree.jpg);
+        background-image: url(../img/lego-wall-e.jpg);
         background-attachment: scroll;
         background-repeat: no-repeat;
-        background-position: bottom right;
-        background-size: 250px 252px; 
+        background-position: top right;
+        background-size: 200px 202px; 
     }
 }
-
+ */
 section.work {
     background-color: #E8E8E8; 
     color: #000;
@@ -423,4 +423,10 @@ svg path { fill: $color-gray-dark; }
   color: #43070a;
   background-color: #e7ced0;
   border-color: #d5aaac;
+}
+.work .row {
+    border-bottom: 1px solid white;
+}
+.work .btn {
+    margin-bottom: 2em;
 }

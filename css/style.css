@@ -33,7 +33,7 @@
   zoom: 1; }
 
 /* Remove browser defaults */
-/* line 26, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/reset */
+/* line 26, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, button, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -45,70 +45,70 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* Add box sizing to everything
  * http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
-/* line 40, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/reset */
+/* line 40, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/reset */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 /*  Set display type for HTML5 semantic elements */
-/* line 46, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/reset */
+/* line 46, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/reset */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block; }
 
 /*  Force scrollbar display to prevent jumping on pages.
  *  Fix text resize bug on mobile devices. */
-/* line 52, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/reset */
+/* line 52, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/reset */
 html {
   overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
 /*  Display audio, canvas, and video elements as inline block elements. */
-/* line 61, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/reset */
+/* line 61, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/reset */
 audio, canvas, video {
   display: inline-block; }
 
 /*  Prevent modern browsers from displaying audio without controls. */
-/* line 66, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/reset */
+/* line 66, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/reset */
 audio:not([controls]) {
   display: none;
   height: 0; }
 
 /*  Prevent img and video elements from spilling
  *  outside of the page on smaller screens. */
-/* line 74, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/reset */
+/* line 74, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/reset */
 img, video {
   max-width: 100%;
   height: auto; }
 
 /*  Prevent iframe, object, and embed elements from
  *  spilling outside of the page on smaller screens. */
-/* line 83, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/reset */
+/* line 83, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/reset */
 iframe, object, embed {
   max-width: 100%; }
 
 /* Address [hidden] styling not present in IE 8/9.
  * Hide the template element in IE, Safari, and Firefox < 22. */
-/* line 90, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/reset */
+/* line 90, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/reset */
 [hidden], template {
   display: none;
   visibility: hidden; }
 
 /*  Prevents IE from making scaled images look like crap */
-/* line 96, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/reset */
+/* line 96, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/reset */
 img {
   -ms-interpolation-mode: bicubic; }
 
 /*  Address outline inconsistency between Chrome and other browsers. */
-/* line 102, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/reset */
+/* line 102, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/reset */
 a:focus, button:focus {
   outline: thin dotted;
   outline: 0.3125em auto -webkit-focus-ring-color;
   outline-offset: -0.15625em; }
 
 /*  Improve readability when focused and also mouse hovered in all browsers. */
-/* line 110, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/reset */
+/* line 110, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/reset */
 a:hover, a:active {
   outline: 0; }
 
@@ -118,7 +118,7 @@ a:hover, a:active {
  * ============================================================= */
 /*  Mobile-first. Single-column layout by default
  *  Container sets the maximum page width. Adjust as needed. */
-/* line 8, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+/* line 8, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
 .container {
   max-width: 80em;
   width: 88%;
@@ -129,12 +129,12 @@ a:hover, a:active {
  *  Option to activate grid on small screens.
  *  Two-column layout for .grid-img. */
 @media (min-width: 20em) {
-  /* line 21, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 21, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .row {
     margin-left: -1.4%;
     margin-right: -1.4%; }
 
-  /* line 32, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 32, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .grid-fourth, .grid-third, .grid-half, .grid-two-thirds, .grid-three-fourths, .grid-full, .grid-img {
     float: left;
     width: 100%;
@@ -142,28 +142,28 @@ a:hover, a:active {
     padding-right: 1.4%; }
 
   /*  Reverses order of grid for content choreography */
-  /* line 40, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 40, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .grid-flip {
     float: right; }
 
   /*  Optionally show grid for small screens */
-  /* line 45, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 45, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .row-start-xsmall .grid-fourth {
     width: 25%; }
 
-  /* line 49, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 49, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .row-start-xsmall .grid-third {
     width: 33.33333%; }
 
-  /* line 54, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 54, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .row-start-xsmall .grid-half, .grid-img {
     width: 50%; }
 
-  /* line 58, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 58, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .row-start-xsmall .grid-two-thirds {
     width: 66.66667%; }
 
-  /* line 62, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 62, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .row-start-xsmall .grid-three-fourths {
     width: 75%; }
  }
@@ -173,23 +173,23 @@ a:hover, a:active {
  *  Three-column layout for .grid-img. */
 @media (min-width: 30em) {
   /*  Show grid for small screens */
-  /* line 75, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 75, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .row-start-small .grid-fourth {
     width: 25%; }
 
-  /* line 80, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 80, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .row-start-small .grid-third, .grid-img {
     width: 33.33333%; }
 
-  /* line 84, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 84, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .row-start-small .grid-half {
     width: 50%; }
 
-  /* line 88, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 88, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .row-start-small .grid-two-thirds {
     width: 66.66667%; }
 
-  /* line 92, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 92, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .row-start-small .grid-three-fourths {
     width: 75%; }
  }
@@ -197,45 +197,45 @@ a:hover, a:active {
 /*  Full 6-column grid.
  *  Four-column layout for .grid-img. */
 @media (min-width: 50em) {
-  /* line 104, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 104, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .grid-fourth, .grid-img {
     width: 25%; }
 
-  /* line 108, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 108, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .grid-third {
     width: 33.33333%; }
 
-  /* line 112, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 112, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .grid-half {
     width: 50%; }
 
-  /* line 116, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 116, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .grid-two-thirds {
     width: 66.66667%; }
 
-  /* line 120, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 120, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .grid-three-fourths {
     width: 75%; }
 
   /*  Offets let you shift grid elements to the right
 	 *  but stay aligned to the grid. */
-  /* line 127, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 127, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .offset-fourth {
     margin-left: 25%; }
 
-  /* line 131, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 131, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .offset-third {
     margin-left: 33.33333%; }
 
-  /* line 135, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 135, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .offset-half {
     margin-left: 50%; }
 
-  /* line 139, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 139, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .offset-two-thirds {
     margin-left: 66.66667%; }
 
-  /* line 143, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/grid */
+  /* line 143, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/grid */
   .offset-three-fourths {
     margin-left: 75%; }
  }
@@ -245,7 +245,7 @@ a:hover, a:active {
 	TYPOGRAPHY
 	Sets font styles for entire site.
  * ============================================================= */
-/* line 6, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 6, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 body {
   font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
@@ -254,60 +254,60 @@ body {
   color: #272727;
   background: #ffffff; }
 
-/* line 15, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 15, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 p {
   margin-bottom: 1.5625em; }
 
 @media (min-width: 50em) {
-  /* line 20, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+  /* line 20, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
   body {
     line-height: 1.5625; }
  }
 
 /*  Sizes
  *  For smaller and larger text */
-/* line 29, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 29, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 .text-small {
   font-size: 0.9375em; }
 
-/* line 33, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 33, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 .text-tall {
   font-size: 1.1875em;
   line-height: 1.4; }
 
 @media (min-width: 50em) {
-  /* line 39, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+  /* line 39, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
   .text-tall {
     font-size: 1.3125em; }
  }
 
 /*  Colors
  *  For alternate text colors */
-/* line 48, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 48, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 .text-muted {
   color: #808080; }
 
 /*  Links
  *  Hyperlink styling */
-/* line 56, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 56, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 a {
   color: #ed4d64;
   text-decoration: none;
   word-wrap: break-word; }
 
-/* line 62, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 62, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 a:hover {
   color: #d81632;
   text-decoration: underline; }
 
-/* line 67, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 67, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 a img {
   border: none;
   background: none; }
 
 /*  Prevents border/background on linked image hover.
  *  Adds slight opacity. */
-/* line 74, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 74, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 a:hover img {
   border: none;
   background: none;
@@ -316,35 +316,35 @@ a:hover img {
 
 /*  Lists
  *  Styling for lists */
-/* line 87, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 87, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 ul, ol, dl {
   margin-bottom: 1.5625em;
   margin-left: 2em; }
 
-/* line 95, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 95, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 ul ul, ul ol, ol ol, ol ul {
   margin-bottom: 0; }
 
-/* line 99, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 99, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 ul {
   list-style: disc; }
 
-/* line 103, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 103, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 ol {
   list-style: decimal; }
 
-/* line 107, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 107, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 dl {
   margin-left: 0; }
 
-/* line 111, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 111, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 dt {
   font-weight: bold; }
 
 /*  Removes list styling.
  *  For semantic reasons, should only
  *  be used on unordered lists. */
-/* line 118, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 118, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 .list-unstyled {
   margin-left: 0;
   list-style: none; }
@@ -353,7 +353,7 @@ dt {
  *  h1 through h6 styling
  *  Heading class lets you use one heading type for semantics
  *  but style it as another heading type. */
-/* line 129, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 129, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   font-weight: normal;
@@ -361,27 +361,27 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 1em;
   word-wrap: break-word; }
 
-/* line 138, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 138, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 h1, .h1 {
   font-size: 3em;
   padding-top: 0.5em; }
 
-/* line 144, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 144, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 h2, .h2 {
   font-size: 2.75em; }
 
-/* line 149, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 149, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 h3, .h3 {
   font-size: 2.5em; }
 
-/* line 154, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 154, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 h4, h5, h6, .h4, .h5, .h6 {
   font-size: 2em;
   font-style: italic; }
 
 /*  Lines, Quotes and Emphasis */
 /*  Lines */
-/* line 162, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 162, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 hr {
   margin: 2em auto;
   border: 0;
@@ -389,17 +389,17 @@ hr {
   border-bottom: 0 solid #ffffff; }
 
 /*  Bold */
-/* line 170, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 170, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 strong {
   font-weight: bold; }
 
 /*  Italics */
-/* line 175, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 175, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 em {
   font-style: italic; }
 
 /*  Subscript & Superscript */
-/* line 181, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 181, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 sub, sup {
   position: relative;
   font-size: 85%;
@@ -408,38 +408,38 @@ sub, sup {
   vertical-align: baseline;
   margin-left: 0.25em; }
 
-/* line 190, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 190, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 sup {
   top: -0.5em; }
 
-/* line 194, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 194, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 sub {
   bottom: -0.25em; }
 
 /*  Highlighting colors */
-/* line 199, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 199, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 ::selection {
   color: #ffffff;
   background: #ed4d64; }
 
-/* line 204, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 204, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 ::-moz-selection {
   color: #ffffff;
   background: #ed4d64; }
 
 /*  Blockquotes */
-/* line 210, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 210, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 blockquote {
   border-left: 0.25em solid #e5e5e5;
   margin-bottom: 1.5625em;
   padding-left: 1.5625em;
   padding-right: 1.5625em; }
 
-/* line 217, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 217, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 blockquote, q {
   quotes: none; }
 
-/* line 224, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/typography */
+/* line 224, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/typography */
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
   content: none; }
@@ -448,7 +448,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 	BUTTONS
 	Styling for CSS buttons.
  * ============================================================= */
-/* line 6, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/buttons */
+/* line 6, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/buttons */
 .btn {
   display: inline-block;
   font-size: 0.9375em;
@@ -461,32 +461,32 @@ blockquote:before, blockquote:after, q:before, q:after {
   margin-right: 0.3125em;
   margin-bottom: 0.3125em; }
 
-/* line 22, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/buttons */
+/* line 22, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/buttons */
 .btn, .btn:hover, a .btn:hover, .btn.active {
   color: #ffffff; }
 
-/* line 28, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/buttons */
+/* line 28, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/buttons */
 .btn:hover, a .btn:hover, .btn.active {
   background-color: #d81632;
   border-color: #d81632;
   text-decoration: none; }
 
-/* line 34, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/buttons */
+/* line 34, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/buttons */
 .btn-secondary {
   background-color: #808080;
   border-color: #808080; }
 
-/* line 41, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/buttons */
+/* line 41, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/buttons */
 .btn-secondary:hover, a .btn-secondary:hover, .btn-secondary.active {
   background-color: #5a5a5a;
   border-color: #5a5a5a; }
 
-/* line 47, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/buttons */
+/* line 47, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/buttons */
 .btn:active, .btn.active {
   box-shadow: inset 0 0.15625em 0.25em rgba(0, 0, 0, 0.15), 0 0.0725em 0.15625em rgba(0, 0, 0, 0.05);
   outline: 0; }
 
-/* line 53, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/buttons */
+/* line 53, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/buttons */
 .btn.disabled, .btn[disabled] {
   pointer-events: none;
   cursor: not-allowed;
@@ -494,13 +494,13 @@ blockquote:before, blockquote:after, q:before, q:after {
   filter: alpha(opacity=50);
   box-shadow: none; }
 
-/* line 61, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/buttons */
+/* line 61, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/buttons */
 .btn-large {
   padding: 0.6875em 0.9375em;
   font-size: 1em;
   line-height: normal; }
 
-/* line 70, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/buttons */
+/* line 70, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/buttons */
 .btn-block, input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"].btn-block {
   display: block;
   width: 100%;
@@ -508,7 +508,7 @@ blockquote:before, blockquote:after, q:before, q:after {
   padding-right: 0;
   padding-left: 0; }
 
-/* line 79, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/buttons */
+/* line 79, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/buttons */
 button, .btn {
   cursor: pointer;
   text-align: center;
@@ -517,11 +517,11 @@ button, .btn {
   background-image: none;
   -webkit-appearance: none; }
 
-/* line 89, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/buttons */
+/* line 89, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/buttons */
 .btn:last-child, input.btn {
   margin-right: 0; }
 
-/* line 93, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/buttons */
+/* line 93, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/buttons */
 .btn-large {
   font-size: 1em; }
 
@@ -530,11 +530,11 @@ button, .btn {
 	Styling for form elements.
  * ============================================================= */
 /* @todo Integrate form styling with _config options */
-/* line 7, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/forms */
+/* line 7, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/forms */
 form, fieldset {
   margin-bottom: 1.5625em; }
 
-/* line 12, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/forms */
+/* line 12, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/forms */
 legend, label {
   display: block;
   font-weight: normal;
@@ -542,7 +542,7 @@ legend, label {
   margin-bottom: 0.3125em; }
 
 /* @todo Adjust form colors based on Sass variables */
-/* line 22, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/forms */
+/* line 22, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/forms */
 input, textarea, select {
   display: block;
   width: 100%;
@@ -554,15 +554,15 @@ input, textarea, select {
   border: 0.0725em solid #b8b8b8;
   border-radius: 0.0725em; }
 
-/* line 35, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/forms */
+/* line 35, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/forms */
 form button, form .button {
   margin-bottom: 1.1875em; }
 
-/* line 39, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/forms */
+/* line 39, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/forms */
 textarea {
   height: 12em; }
 
-/* line 45, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/forms */
+/* line 45, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/forms */
 input[type="image"], input[type="checkbox"], input[type="radio"] {
   display: inline-block;
   width: auto;
@@ -571,34 +571,34 @@ input[type="image"], input[type="checkbox"], input[type="radio"] {
   margin-bottom: 0.3125em;
   cursor: pointer; }
 
-/* line 55, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/forms */
+/* line 55, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/forms */
 input:focus, textarea:focus {
   border-color: rgba(82, 168, 236, 0.8);
   box-shadow: inset 0 0.0725em 0.0725em rgba(0, 0, 0, 0.075), 0 0 0.5em rgba(82, 168, 236, 0.6);
   outline: 0;
   outline: thin dotted \9; }
 
-/* line 64, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/forms */
+/* line 64, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/forms */
 input[type="file"]:focus, input[type="checkbox"]:focus, select:focus {
   outline: thin dotted;
   outline: 0.3125em auto -webkit-focus-ring-color;
   outline-offset: -0.125em; }
 
 /*  Inline Inputs */
-/* line 72, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/forms */
+/* line 72, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/forms */
 .input-inline {
   display: inline-block;
   width: auto;
   vertical-align: middle; }
 
 /*  Condensed Inputs */
-/* line 80, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/forms */
+/* line 80, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/forms */
 .input-condensed {
   padding: 0.0725em 0.3125em;
   font-size: 0.9375em; }
 
 @media (min-width: 50em) {
-  /* line 87, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/forms */
+  /* line 87, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/forms */
   input, textarea, select {
     line-height: 1.5625; }
  }
@@ -608,76 +608,76 @@ input[type="file"]:focus, input[type="checkbox"]:focus, select:focus {
 	Override default alignment, spacing and visibilty.
  * ============================================================= */
 /*  Text alignment */
-/* line 8, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/overrides */
+/* line 8, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/overrides */
 .text-center {
   text-align: center; }
 
-/* line 12, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/overrides */
+/* line 12, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/overrides */
 .text-right {
   text-align: right; }
 
-/* line 16, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/overrides */
+/* line 16, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/overrides */
 .text-left {
   text-align: left; }
 
 /*  Floats */
-/* line 23, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/overrides */
+/* line 23, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/overrides */
 .float-left {
   float: left; }
 
-/* line 27, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/overrides */
+/* line 27, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/overrides */
 .float-center {
   float: none;
   margin-left: auto;
   margin-right: auto; }
 
-/* line 33, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/overrides */
+/* line 33, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/overrides */
 .float-right {
   float: right; }
 
 /*  Spacing */
-/* line 40, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/overrides */
+/* line 40, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/overrides */
 .no-space {
   margin: 0;
   padding: 0; }
 
-/* line 45, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/overrides */
+/* line 45, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/overrides */
 .no-space-bottom {
   margin-bottom: 0;
   padding-bottom: 0; }
 
-/* line 50, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/overrides */
+/* line 50, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/overrides */
 .no-space-top {
   margin-top: 0;
   padding-top: 0; }
 
-/* line 55, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/overrides */
+/* line 55, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/overrides */
 .space-bottom {
   margin-bottom: 2em; }
 
-/* line 59, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/overrides */
+/* line 59, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/overrides */
 .space-bottom-small {
   margin-bottom: 0.5em;
   padding-bottom: 0; }
 
-/* line 64, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/overrides */
+/* line 64, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/overrides */
 .space-top {
   padding-top: 0.8125em; }
 
 /*  Screen Reader Text */
-/* line 71, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/overrides */
+/* line 71, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/overrides */
 .screen-reader {
   position: absolute;
   top: -9999em;
   left: -9999em; }
 
 /*  Clearfix */
-/* line 80, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/overrides */
+/* line 80, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/overrides */
 .group:before, .container:before, .row:before, .group:after, .container:after, .row:after {
   display: table;
   content: ""; }
 
-/* line 85, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/overrides */
+/* line 85, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/overrides */
 .group:after, .container:after, .row:after {
   clear: both; }
 
@@ -690,7 +690,7 @@ input[type="file"]:focus, input[type="checkbox"]:focus, select:focus {
   /*  Universal selector.
 	 *  Reset all content to transparent background,
 	 *  black color, and remove box and text shadows. */
-  /* line 12, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/print */
+  /* line 12, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/print */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -702,268 +702,268 @@ input[type="file"]:focus, input[type="checkbox"]:focus, select:focus {
     margin: 0.5cm; }
 
   /*  Underline all links */
-  /* line 25, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/print */
+  /* line 25, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/print */
   a, a:visited {
     text-decoration: underline; }
 
   /*  Show URL after links */
-  /* line 30, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/print */
+  /* line 30, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/print */
   a[href]:after {
     content: " (" attr(href) ")"; }
 
   /*  Don't show URL for internal links */
-  /* line 35, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/print */
+  /* line 35, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/print */
   a[href^="#"]:after {
     content: ""; }
 
   /*  Specifies the minimum number of lines to print at the top and bottom of a page. */
-  /* line 40, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/print */
+  /* line 40, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/print */
   p, h1, h2, h3 {
     orphans: 3;
     widows: 3; }
 
   /*  Avoid inserting a page break after headers */
-  /* line 46, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/print */
+  /* line 46, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/print */
   h1, h2, h3 {
     page-break-after: avoid; }
 
   /*  Change border color on blockquotes and preformatted text.
 	 *  Avoid page breaks inside the content */
-  /* line 52, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/print */
+  /* line 52, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/print */
   pre, blockquote {
     border-color: #999;
     page-break-inside: avoid; }
 
   /*  Displayed as a table header row group */
-  /* line 58, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/print */
+  /* line 58, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/print */
   thead {
     display: table-header-group; }
 
   /*  Avoid inserting a page break inside table rows and images */
-  /* line 63, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/components/print */
+  /* line 63, /Users/anu/Documents/Sites/vjdesign.github.io/css/components/print */
   tr, img {
     page-break-inside: avoid; }
  }
 
 /*  Client specifics */
-/* line 67, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 67, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 body {
   font-weight: 200; }
 
-@media (min-width: 50em) {
-  /* line 72, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
-  body {
-    background-image: url(../img/lego-tree.jpg);
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 250px 252px; }
- }
-
-/* line 81, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* @media (min-width: $bp-medium) {
+    body {
+        background-image: url(../img/lego-wall-e.jpg);
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 200px 202px; 
+    }
+}
+ */
+/* line 81, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 section.work {
   background-color: #E8E8E8;
   color: #000; }
 
-/* line 86, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 86, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 a {
   transition: 1s;
   color: #ed4d64; }
 
-/* line 90, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 90, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 a:hover {
   text-decoration: none;
   color: darkslateblue; }
 
-/* line 95, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 95, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 img, .btn {
   box-shadow: 0 0.05em 0.225em rgba(0, 0, 0, 0.2);
   border-radius: 0.25em; }
 
-/* line 100, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 100, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 section.work img {
   box-shadow: none;
   border-radius: 0; }
 
-/* line 105, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 105, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 header {
   margin: 1em 0 2em 0; }
 
-/* line 109, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 109, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 h1, h2, h3, h4, nav, .anniversary {
   font-family: "Poiret One", sans-serif;
   text-shadow: 0.5px 0px 0px #999;
   font-weight: lighter; }
 
-/* line 115, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 115, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 h1, h2, h3, a, nav {
   color: #ed4d64; }
 
-/* line 119, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 119, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 h1 span, h2 span, h3 span, h4 span {
   font-size: 0.5em;
   color: #666666; }
 
-/* line 124, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 124, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 h1.logo {
   padding: 0;
   margin: 0.5em 0; }
 
-/* line 129, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 129, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 h1.logo span {
   color: #808080;
   display: block;
   margin-left: 1.5em; }
 
-/* line 135, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 135, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 h1.logo a {
   color: #01b0f0; }
 
-/* line 139, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 139, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 h1.logo a:hover {
   text-decoration: none; }
 
-/* line 143, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 143, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 h1 .icon-dental {
   color: #808080;
   vertical-align: middle; }
 
-/* line 147, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 147, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .contact h2 {
   padding-top: 0;
   margin-bottom: 0.5em; }
 
-/* line 152, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 152, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 nav .nav {
   font-size: 1.3em;
   line-height: 3;
   margin-top: 1em; }
 
-/* line 158, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 158, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .nav {
   list-style: none;
   margin: 0;
   padding: 0; }
 
-/* line 165, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 165, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .nav li {
   display: inline-block;
   margin-right: 0.2em; }
 
-/* line 171, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 171, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .nav a:hover {
   text-decoration: none; }
 
-/* line 175, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 175, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .uppercase {
   text-transform: uppercase; }
 
-/* line 180, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 180, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 article {
   border-top: 1px solid #fff1e5;
   border-bottom: 1px solid #fffaf6; }
 
-/* line 185, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 185, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 article#intro {
   border-top: none; }
 
-/* line 189, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 189, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 #intro h2 {
   padding-top: 0; }
 
-/* line 193, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 193, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 footer {
   border-top: 1px solid #ffe7d4;
   padding: 1em 0; }
 
-/* line 198, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 198, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .badge {
   color: #01b0f0; }
 
-/* line 202, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 202, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 small {
   font-size: 0.75em; }
 
-/* line 206, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 206, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .muted {
   color: #808080; }
 
-/* line 209, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 209, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .italic {
   font-style: italic; }
 
-/* line 212, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 212, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .text-large {
   font-size: 1.3125em; }
 
-/* line 215, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 215, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .btn-primary, .btn-secondary {
   min-width: 260px; }
 
-/* line 218, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 218, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 table {
   width: 100%;
   background-color: #fffaf6;
   color: #333; }
 
-/* line 219, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 219, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 table th {
   padding: 0.25em 0.5em;
   font-weight: bold;
   text-align: left;
   color: #d8756c; }
 
-/* line 220, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 220, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 table td {
   padding: 0.125em 0.5em; }
 
-/* line 222, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 222, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 table th, table td {
   max-width: 3em; }
 
-/* line 223, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 223, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 table tr.odd {
   background-color: #fff; }
 
 @media (min-width: 50em) {
-  /* line 227, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+  /* line 227, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
   h1.logo {
     font-size: 3em; }
 
-  /* line 230, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+  /* line 230, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
   nav .nav {
     text-align: right;
     font-size: 1.5em;
     line-height: 3; }
 
-  /* line 235, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+  /* line 235, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
   .nav li {
     margin-right: 0.5em; }
  }
 
 @media (min-width: 60em) {
-  /* line 241, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+  /* line 241, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
   nav .nav {
     font-size: 1.5em; }
  }
 
 /* Blog styles */
-/* line 248, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 248, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .active {
   text-decoration: underline; }
 
-/* line 252, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 252, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .btn-readmore {
   background-color: #ffffff;
   border-color: #eee;
   color: #808080;
   font-weight: 300; }
 
-/* line 259, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 259, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .btn-readmore {
   min-width: auto; }
 
-/* line 265, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 265, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .btn-readmore:hover, a .btn-readmore:hover, .btn-readmore.active {
   background-color: #e5e5e5;
   border-color: #bfbfbf; }
@@ -971,7 +971,7 @@ table tr.odd {
 /**
  * Hide icons by default to prevent blank spaces in unsupported browsers
  */
-/* line 273, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 273, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .icon {
   display: inline-block;
   fill: currentColor;
@@ -982,82 +982,82 @@ table tr.odd {
  * Display icons when browser supports SVG.
  * Inherit height, width, and color.
  */
-/* line 284, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 284, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .svg .icon {
   height: 1em;
   width: 1em;
   color: inherit; }
 
-/* line 290, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 290, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .icon-in-field {
   position: absolute;
   margin-top: -2.8em;
   margin-left: 0.5em; }
 
-/* line 295, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 295, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 input[placeholder] {
   padding-left: 2em; }
 
-/* line 298, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 298, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 svg.icon {
   vertical-align: middle; }
 
-/* line 301, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 301, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .intro {
   font-size: 1.5em;
   color: #666; }
 
-/* line 305, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 305, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .intro img {
   border-radius: 50%;
   display: block;
   margin: 1em auto; }
 
 @media (min-width: 50em) {
-  /* line 312, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+  /* line 312, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
   .intro img, .intro svg {
     float: left;
     margin: 0 1em 1em 0; }
  }
 
-/* line 317, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 317, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .intro abbr {
   color: #ed4d64;
   border-bottom: 1px dotted #ed4d64; }
 
-/* line 321, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 321, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .contact nav {
   margin-bottom: 1em; }
 
-/* line 325, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 325, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .unstyled {
   list-style-type: none;
   margin-left: 0; }
 
-/* line 330, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 330, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .tick {
   list-style-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDY0IDY0Ij4KPHBhdGggZD0iTTU0IDhsLTMwIDMwLTE0LTE0LTEwIDEwIDI0IDI0IDQwLTQweiIgZmlsbD0iI2NjY2NjYyI+PC9wYXRoPgo8L3N2Zz4=); }
 
-/* line 333, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 333, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .tick li {
   margin-left: 0; }
 
-/* line 337, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 337, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .offer {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAUVBMVEWFhYWDg4N3d3dtbW17e3t1dXWBgYGHh4d5eXlzc3OLi4ubm5uVlZWPj4+NjY19fX2JiYl/f39ra2uRkZGZmZlpaWmXl5dvb29xcXGTk5NnZ2c8TV1mAAAAG3RSTlNAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAvEOwtAAAFVklEQVR4XpWWB67c2BUFb3g557T/hRo9/WUMZHlgr4Bg8Z4qQgQJlHI4A8SzFVrapvmTF9O7dmYRFZ60YiBhJRCgh1FYhiLAmdvX0CzTOpNE77ME0Zty/nWWzchDtiqrmQDeuv3powQ5ta2eN0FY0InkqDD73lT9c9lEzwUNqgFHs9VQce3TVClFCQrSTfOiYkVJQBmpbq2L6iZavPnAPcoU0dSw0SUTqz/GtrGuXfbyyBniKykOWQWGqwwMA7QiYAxi+IlPdqo+hYHnUt5ZPfnsHJyNiDtnpJyayNBkF6cWoYGAMY92U2hXHF/C1M8uP/ZtYdiuj26UdAdQQSXQErwSOMzt/XWRWAz5GuSBIkwG1H3FabJ2OsUOUhGC6tK4EMtJO0ttC6IBD3kM0ve0tJwMdSfjZo+EEISaeTr9P3wYrGjXqyC1krcKdhMpxEnt5JetoulscpyzhXN5FRpuPHvbeQaKxFAEB6EN+cYN6xD7RYGpXpNndMmZgM5Dcs3YSNFDHUo2LGfZuukSWyUYirJAdYbF3MfqEKmjM+I2EfhA94iG3L7uKrR+GdWD73ydlIB+6hgref1QTlmgmbM3/LeX5GI1Ux1RWpgxpLuZ2+I+IjzZ8wqE4nilvQdkUdfhzI5QDWy+kw5Wgg2pGpeEVeCCA7b85BO3F9DzxB3cdqvBzWcmzbyMiqhzuYqtHRVG2y4x+KOlnyqla8AoWWpuBoYRxzXrfKuILl6SfiWCbjxoZJUaCBj1CjH7GIaDbc9kqBY3W/Rgjda1iqQcOJu2WW+76pZC9QG7M00dffe9hNnseupFL53r8F7YHSwJWUKP2q+k7RdsxyOB11n0xtOvnW4irMMFNV4H0uqwS5ExsmP9AxbDTc9JwgneAT5vTiUSm1E7BSflSt3bfa1tv8Di3R8n3Af7MNWzs49hmauE2wP+ttrq+AsWpFG2awvsuOqbipWHgtuvuaAE+A1Z/7gC9hesnr+7wqCwG8c5yAg3AL1fm8T9AZtp/bbJGwl1pNrE7RuOX7PeMRUERVaPpEs+yqeoSmuOlokqw49pgomjLeh7icHNlG19yjs6XXOMedYm5xH2YxpV2tc0Ro2jJfxC50ApuxGob7lMsxfTbeUv07TyYxpeLucEH1gNd4IKH2LAg5TdVhlCafZvpskfncCfx8pOhJzd76bJWeYFnFciwcYfubRc12Ip/ppIhA1/mSZ/RxjFDrJC5xifFjJpY2Xl5zXdguFqYyTR1zSp1Y9p+tktDYYSNflcxI0iyO4TPBdlRcpeqjK/piF5bklq77VSEaA+z8qmJTFzIWiitbnzR794USKBUaT0NTEsVjZqLaFVqJoPN9ODG70IPbfBHKK+/q/AWR0tJzYHRULOa4MP+W/HfGadZUbfw177G7j/OGbIs8TahLyynl4X4RinF793Oz+BU0saXtUHrVBFT/DnA3ctNPoGbs4hRIjTok8i+algT1lTHi4SxFvONKNrgQFAq2/gFnWMXgwffgYMJpiKYkmW3tTg3ZQ9Jq+f8XN+A5eeUKHWvJWJ2sgJ1Sop+wwhqFVijqWaJhwtD8MNlSBeWNNWTa5Z5kPZw5+LbVT99wqTdx29lMUH4OIG/D86ruKEauBjvH5xy6um/Sfj7ei6UUVk4AIl3MyD4MSSTOFgSwsH/QJWaQ5as7ZcmgBZkzjjU1UrQ74ci1gWBCSGHtuV1H2mhSnO3Wp/3fEV5a+4wz//6qy8JxjZsmxxy5+4w9CDNJY09T072iKG0EnOS0arEYgXqYnXcYHwjTtUNAcMelOd4xpkoqiTYICWFq0JSiPfPDQdnt+4/wuqcXY47QILbgAAAABJRU5ErkJggg==); }
 
-/* line 340, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 340, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 footer {
   color: #808080; }
 
-/* line 344, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 344, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 ul.panels, ul.panels li {
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-align: center; }
 
-/* line 350, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 350, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 ul.panels li {
   font-size: 1.25em;
   padding: 0.5em;
@@ -1066,76 +1066,76 @@ ul.panels li {
   border-radius: 0.5em;
   background-color: #feffff; }
 
-/* line 358, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 358, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 ul.panels li small {
   display: block; }
 
-/* line 361, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 361, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 ul.panels svg {
   display: block;
   margin: 0 auto;
   text-shadow: 1px 1px 2px #493f05;
   margin-bottom: 0.5em; }
 
-/* line 367, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 367, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 ul.panels a {
   color: #808080;
   border-bottom: 1px dotted; }
 
-/* line 371, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 371, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 ul.panels a:hover {
   color: #ed4d64; }
 
 @media (min-width: 30em) {
-  /* line 375, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+  /* line 375, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
   ul.panels li {
     width: 10em;
     float: left;
     margin-right: 1em; }
  }
 
-/* line 381, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 381, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 path {
   transition: 1s; }
 
-/* line 383, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 383, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 svg path {
   fill: #808080; }
 
-/* line 384, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 384, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .panels li:hover {
   background-color: #f7f7f7;
   border-color: #dedede; }
 
-/* line 388, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 388, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .panels li:hover svg path {
   fill: #ed4d64; }
 
 /**
  * Display lists on a single line.
  */
-/* line 394, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 394, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .list-inline {
   list-style: none;
   margin-left: -0.5em;
   margin-right: -0.5em;
   padding: 0; }
 
-/* line 401, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 401, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .list-inline > li {
   display: inline;
   margin-left: 0.5em;
   margin-right: 0.5em; }
 
-/* line 408, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 408, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .error_box {
   color: red; }
 
-/* line 411, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 411, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .hidden {
   display: none; }
 
-/* line 414, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 414, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .alert {
   color: #005580;
   background-color: #cce7f4;
@@ -1144,10 +1144,18 @@ svg path {
   padding: 0.25em 0.5em;
   border-radius: 0.0725em; }
 
-/* line 422, /Users/anu/Documents/Sites/aussieweb/vjdesign/css/style.scss */
+/* line 422, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .alert-danger {
   color: #43070a;
   background-color: #e7ced0;
   border-color: #d5aaac; }
+
+/* line 427, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+.work .row {
+  border-bottom: 1px solid white; }
+
+/* line 430, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+.work .btn {
+  margin-bottom: 2em; }
 
 /*# sourceMappingURL=style.css.map */
