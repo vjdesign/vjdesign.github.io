@@ -1015,7 +1015,7 @@ svg.icon {
 
 @media (min-width: 50em) {
   /* line 312, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
-  .intro img, .intro svg {
+  .intro img, .intro svg, .text-large svg {
     float: left;
     margin: 0 1em 1em 0; }
  }

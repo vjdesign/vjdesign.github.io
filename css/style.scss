@@ -309,7 +309,7 @@ svg.icon {
 }
 
 @media (min-width: $bp-medium) {
-    .intro img, .intro svg {
+    .intro img, .intro svg, .text-large svg {
         float: left;
         margin: 0 1em 1em 0;
     }
