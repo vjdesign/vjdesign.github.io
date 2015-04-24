@@ -396,12 +396,12 @@ ul.panels a:hover {
 }
 path { transition: 1s; }
 
-.panels svg path { fill: $color-gray-dark; }
+.panels svg path { fill: $color-primary; }
 .panels li:hover {
     background-color: #f7f7f7;
     border-color: #dedede;
 }
-.panels li:hover svg path { fill: $color-primary; }
+.panels li:hover svg path { fill: $color-gray-dark; }
 
 
 /**
