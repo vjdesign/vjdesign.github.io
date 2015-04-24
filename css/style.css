@@ -813,7 +813,7 @@ h1.logo {
 h1.logo span {
   color: #808080;
   display: block;
-  margin-left: 1.5em; }
+  font-weight: 100; }
 
 /* line 135, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 h1.logo a {
@@ -824,146 +824,149 @@ h1.logo a:hover {
   text-decoration: none; }
 
 /* line 143, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
-h1 .icon-dental {
-  color: #808080;
-  vertical-align: middle; }
-
-/* line 147, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .contact h2 {
   padding-top: 0;
   margin-bottom: 0.5em; }
 
-/* line 152, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 148, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 nav .nav {
   font-size: 1.3em;
   line-height: 3;
   margin-top: 1em; }
 
-/* line 158, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 154, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .nav {
   list-style: none;
   margin: 0;
   padding: 0; }
 
-/* line 165, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 161, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .nav li {
   display: inline-block;
   margin-right: 0.2em; }
+
+/* line 167, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+.nav .current {
+  color: #808080; }
 
 /* line 171, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .nav a:hover {
   text-decoration: none; }
 
 /* line 175, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+.nav a.current:hover {
+  cursor: not-allowed; }
+
+/* line 179, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .uppercase {
   text-transform: uppercase; }
 
-/* line 180, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 184, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 article {
   border-top: 1px solid #fff1e5;
   border-bottom: 1px solid #fffaf6; }
 
-/* line 185, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 189, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 article#intro {
   border-top: none; }
 
-/* line 189, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 193, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 #intro h2 {
   padding-top: 0; }
 
-/* line 193, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 197, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 footer {
   border-top: 1px solid #ffe7d4;
   padding: 1em 0; }
 
-/* line 198, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 202, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .badge {
   color: #01b0f0; }
 
-/* line 202, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 206, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 small {
   font-size: 0.75em; }
 
-/* line 206, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 210, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .muted {
   color: #808080; }
 
-/* line 209, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 213, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .italic {
   font-style: italic; }
 
-/* line 212, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 216, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .text-large {
   font-size: 1.3125em; }
 
-/* line 215, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 219, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .btn-primary, .btn-secondary {
   min-width: 260px; }
 
-/* line 218, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 222, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 table {
   width: 100%;
   background-color: #fffaf6;
   color: #333; }
 
-/* line 219, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 223, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 table th {
   padding: 0.25em 0.5em;
   font-weight: bold;
   text-align: left;
   color: #d8756c; }
 
-/* line 220, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 224, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 table td {
   padding: 0.125em 0.5em; }
 
-/* line 222, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 226, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 table th, table td {
   max-width: 3em; }
 
-/* line 223, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 227, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 table tr.odd {
   background-color: #fff; }
 
 @media (min-width: 50em) {
-  /* line 227, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+  /* line 231, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
   h1.logo {
     font-size: 3em; }
 
-  /* line 230, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+  /* line 234, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
   nav .nav {
     text-align: right;
     font-size: 1.5em;
     line-height: 3; }
 
-  /* line 235, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+  /* line 239, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
   .nav li {
     margin-right: 0.5em; }
  }
 
 @media (min-width: 60em) {
-  /* line 241, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+  /* line 245, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
   nav .nav {
     font-size: 1.5em; }
  }
 
 /* Blog styles */
-/* line 248, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 252, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .active {
   text-decoration: underline; }
 
-/* line 252, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 256, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .btn-readmore {
   background-color: #ffffff;
   border-color: #eee;
   color: #808080;
   font-weight: 300; }
 
-/* line 259, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 263, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .btn-readmore {
   min-width: auto; }
 
-/* line 265, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 269, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .btn-readmore:hover, a .btn-readmore:hover, .btn-readmore.active {
   background-color: #e5e5e5;
   border-color: #bfbfbf; }
@@ -971,7 +974,7 @@ table tr.odd {
 /**
  * Hide icons by default to prevent blank spaces in unsupported browsers
  */
-/* line 273, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 277, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .icon {
   display: inline-block;
   fill: currentColor;
@@ -982,82 +985,95 @@ table tr.odd {
  * Display icons when browser supports SVG.
  * Inherit height, width, and color.
  */
-/* line 284, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 288, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .svg .icon {
   height: 1em;
   width: 1em;
   color: inherit; }
 
-/* line 290, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 294, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .icon-in-field {
   position: absolute;
   margin-top: -2.8em;
   margin-left: 0.5em; }
 
-/* line 295, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 299, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 input[placeholder] {
   padding-left: 2em; }
 
-/* line 298, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 302, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 svg.icon {
   vertical-align: middle; }
 
-/* line 301, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 305, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .intro {
   font-size: 1.5em;
   color: #666; }
 
-/* line 305, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 309, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .intro img {
   border-radius: 50%;
   display: block;
   margin: 1em auto; }
 
 @media (min-width: 50em) {
-  /* line 312, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+  /* line 316, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
   .intro img, .intro svg, .text-large svg {
     float: left;
     margin: 0 1em 1em 0; }
  }
 
-/* line 317, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 321, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .intro abbr {
   color: #ed4d64;
   border-bottom: 1px dotted #ed4d64; }
 
-/* line 321, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 325, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .contact nav {
   margin-bottom: 1em; }
 
-/* line 325, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 329, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .unstyled {
   list-style-type: none;
   margin-left: 0; }
 
-/* line 330, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 334, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .tick {
   list-style-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDY0IDY0Ij4KPHBhdGggZD0iTTU0IDhsLTMwIDMwLTE0LTE0LTEwIDEwIDI0IDI0IDQwLTQweiIgZmlsbD0iI2NjY2NjYyI+PC9wYXRoPgo8L3N2Zz4=); }
 
-/* line 333, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 337, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .tick li {
   margin-left: 0; }
 
-/* line 337, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 341, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .offer {
   background: url(data:image/png;base64,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); }
 
-/* line 340, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 344, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+.link {
+  display: inline-block;
+  text-indent: -9999px;
+  width: 16px;
+  height: 16px;
+  background: url(svg/0204-link-white.svg);
+  background-size: 16px 16px;
+  vertical-align: middle; }
+
+/* line 354, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 footer {
   color: #808080; }
 
-/* line 344, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 358, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 ul.panels, ul.panels li {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0; }
+
+/* line 363, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+ul.panels {
   text-align: center; }
 
-/* line 350, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 366, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 ul.panels li {
   font-size: 1.25em;
   padding: 0.5em;
@@ -1066,76 +1082,76 @@ ul.panels li {
   border-radius: 0.5em;
   background-color: #feffff; }
 
-/* line 358, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 374, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 ul.panels li small {
   display: block; }
 
-/* line 361, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 377, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 ul.panels svg {
   display: block;
   margin: 0 auto;
   text-shadow: 1px 1px 2px #493f05;
   margin-bottom: 0.5em; }
 
-/* line 367, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 383, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 ul.panels a {
   color: #808080;
   border-bottom: 1px dotted; }
 
-/* line 371, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 387, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 ul.panels a:hover {
   color: #ed4d64; }
 
 @media (min-width: 30em) {
-  /* line 375, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+  /* line 391, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
   ul.panels li {
     width: 10em;
     float: left;
     margin-right: 1em; }
  }
 
-/* line 381, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 397, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 path {
   transition: 1s; }
 
-/* line 383, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
-svg path {
+/* line 399, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+.panels svg path {
   fill: #808080; }
 
-/* line 384, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 400, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .panels li:hover {
   background-color: #f7f7f7;
   border-color: #dedede; }
 
-/* line 388, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 404, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .panels li:hover svg path {
   fill: #ed4d64; }
 
 /**
  * Display lists on a single line.
  */
-/* line 394, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 410, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .list-inline {
   list-style: none;
   margin-left: -0.5em;
   margin-right: -0.5em;
   padding: 0; }
 
-/* line 401, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 417, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .list-inline > li {
   display: inline;
   margin-left: 0.5em;
   margin-right: 0.5em; }
 
-/* line 408, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 424, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .error_box {
   color: red; }
 
-/* line 411, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 427, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .hidden {
   display: none; }
 
-/* line 414, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 430, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .alert {
   color: #005580;
   background-color: #cce7f4;
@@ -1144,18 +1160,33 @@ svg path {
   padding: 0.25em 0.5em;
   border-radius: 0.0725em; }
 
-/* line 422, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 438, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .alert-danger {
   color: #43070a;
   background-color: #e7ced0;
   border-color: #d5aaac; }
 
-/* line 427, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 443, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .work .row {
   border-bottom: 1px solid white; }
 
-/* line 430, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+/* line 446, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .work .btn {
   margin-bottom: 2em; }
+
+/* line 449, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+i {
+  font-style: normal;
+  background-color: #ed4d64;
+  color: #fff;
+  padding: 0.125em 0.25em 0 0.25em;
+  margin-right: 0.125em;
+  border-radius: 25%; }
+
+/* line 458, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
+.btn-bordered {
+  background: inherit;
+  border: 1px solid #ed4d64;
+  color: #ed4d64; }
 
 /*# sourceMappingURL=style.css.map */
