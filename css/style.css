@@ -1116,7 +1116,7 @@ path {
 
 /* line 399, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .panels svg path {
-  fill: #ed4d64; }
+  fill: #f8b9c2; }
 
 /* line 400, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .panels li:hover {
@@ -1125,7 +1125,7 @@ path {
 
 /* line 404, /Users/anu/Documents/Sites/vjdesign.github.io/css/style.scss */
 .panels li:hover svg path {
-  fill: #808080; }
+  fill: #ed4d64; }
 
 /**
  * Display lists on a single line.
