@@ -9,58 +9,24 @@
 
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
 
-// CONFIGURATION SETTINGS
-// Adjust colors, font stacks, breakpoints and sizing.
+@import "../sass/config";
 
-// Colors
-$color-primary: #ed4d64; // was cd4f44 
-$color-secondary: darkslateblue;
-$color-black: #272727;
-$color-white: #ffffff;
+@import "../sass/mixins";
+@import "../sass/components/normalize";
+@import "../sass/components/grid";
+@import "../sass/components/typography";
+@import "../sass/components/code";
+@import "../sass/components/buttons";
+@import "../sass/components/forms";
+@import "../sass/components/svg";
+@import "../sass/components/tables";
+// @import "../sass/components/iconfonts";
 
-$color-success: #377f31; // Green
-$color-danger: #880e14; // Red
-$color-warning: #dba909; // Yellow
-$color-code: #dd1144;
+// @import "../sass/addins/drop-basic";
+@import "../sass/addins/astro";
 
-$color-gray-dark: #808080;
-$color-gray-light: #e5e5e5;
-
-
-// Font Stacks
-$font-primary: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-secondary: Georgia, Times, serif;
-$font-monospace: Menlo, Monaco, "Courier New", monospace;
-$font-headings: "Poiret One", sans-serif;
-
-
-// Breakpoints
-$bp-xsmall: 20em;
-$bp-small: 30em;
-$bp-medium: 50em;
-$bp-large: 60em;
-$bp-xlarge: 80em;
-
-
-// Sizing
-$font-base: 100%;
-$font-weight: 300;
-$spacing: 1.5625em;
-$container-max: 80em;
-$grid-margins: 1.4%;
-
-@import
-	"components/mixins",
-	"components/reset",
-	"components/grid",
-	"components/typography",
-	//"components/code",
-	"components/buttons",
-	"components/forms",
-	//"components/icons",
-	// "Import add-ons here...",
-	"components/overrides",
-	"components/print";
+@import "../sass/components/overrides";
+@import "../sass/components/print";
 
 /*  Client specifics */
 
@@ -74,12 +40,12 @@ body {
         background-attachment: scroll;
         background-repeat: no-repeat;
         background-position: top right;
-        background-size: 200px 202px; 
+        background-size: 200px 202px;
     }
 }
  */
 section.work {
-    background-color: #E8E8E8; 
+    background-color: #E8E8E8;
     color: #000;
 }
 
@@ -187,7 +153,7 @@ article {
 }
 
 article#intro {
-	border-top: none;	
+	border-top: none;
 }
 
 #intro h2 {
@@ -222,12 +188,12 @@ small {
 table     { width:100%; background-color:#fffaf6; color:#333;}
 table th  { padding:.25em .5em; font-weight:bold; text-align: left; color:#d8756c;}
 table td  { padding:.125em .5em;  }
-table th, 
+table th,
 table td  { max-width: 3em;}
 table tr.odd {background-color: #fff;}
 
 @media (min-width: $bp-medium) {
-	
+
 	h1.logo {
 		font-size: 3em;
 	}
@@ -245,7 +211,7 @@ table tr.odd {background-color: #fff;}
 	nav .nav {
 		font-size: 1.5em;
 	}
-}	
+}
 
 /* Blog styles */
 
@@ -293,7 +259,7 @@ a .btn-readmore:hover,
 
 .icon-in-field {
     position: absolute;
-    margin-top: -2.8em; 
+    margin-top: -2.8em;
     margin-left: .5em;
 }
 input[placeholder] {
@@ -448,7 +414,7 @@ path { transition: 1s; }
 }
 i {
     font-style: normal;
-    background-color: #ed4d64;
+    background-color: $color-primary;
     color: #fff;
     padding: .125em .25em 0 .25em;
     margin-right: .125em;
@@ -459,4 +425,7 @@ i {
     background: inherit;
     border: 1px solid $color-primary;
     color: $color-primary;
+}
+.launch {
+	fill: $color-primary;
 }

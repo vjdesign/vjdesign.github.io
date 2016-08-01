@@ -1,0 +1,80 @@
+// @section Configuration Settings
+
+// Colors - https://color.adobe.com/sun-splash-color-theme-1568873/?showPublished=true
+$color-primary: #B11030; // was ed4d64 was cd4f44
+$color-secondary: darkslateblue;
+$color-black: #272727;
+$color-white: #ffffff;
+
+$color-success: #377f31; // Green
+$color-danger: #880e14; // Red
+$color-warning: #dba909; // Yellow
+$color-code: #dd1144;
+
+$color-gray-dark: #808080;
+$color-gray-light: #e5e5e5;
+
+$color-link: $color-primary;
+$color-button: $color-primary;
+$color-info: #0088cc; // Blue
+
+// Font Stacks
+$font-primary: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-secondary: Georgia, Times, serif;
+$font-monospace: Menlo, Monaco, "Courier New", monospace;
+$font-headings: "Poiret One", sans-serif;
+
+// Breakpoints
+$bp-xsmall: 20em;
+$bp-small: 30em;
+$bp-medium: 40em;
+$bp-large: 60em;
+$bp-xlarge: 80em;
+
+
+// Sizing
+$font-size: 100%;
+$spacing: 1.5625em;
+$container-width: 88%;
+$container-max-width: 80em;
+
+
+// Grid
+$grid-margins: 1.4%;
+$grid-sizes: (
+	// Grid width options
+	// Add/remove grid's as needed
+	// $name: $width
+	// $name - {string} class suffix
+	// $width - {string} width of the grid
+	sixth: 15%,
+	fifth: 20%,
+	fourth: 25%,
+	third: 33.33333333333%,
+	half: 50%,
+	two-thirds: 66.666666666667%,
+	three-fourths: 75%,
+	full: 100%
+);
+$grid-breakpoints: (
+	// Breakpoints at which to activate grid
+	// Add/remove breakpoints as needed
+	// ($breakpoint, $prefix-class, $include-offsets)
+	// $breakpoint - {string|variable} the breakpoint
+	// $prefix-class - {string|optional} class to be used with `.row` to activate grid
+	// $include-offsets - {boolean} if true, include offset classes at this breakpoint
+	($bp-xsmall, ".row-start-xsmall", false),
+	($bp-small, ".row-start-small", false),
+	($bp-medium, null, true),
+);
+$grid-dynamic: (
+	// Create grid classes that vary in size at different breakpoints
+	// Add/remove classes, breakpoints, and sizes as needed
+	// ($class, $breakpoint, $width)
+	// $class - {string} the grid class
+	// $breakpoint - {string|variable} the breakpoint
+	// $width - {string|variable} width of the grid at the breakpoint
+	(".grid-dynamic", $bp-xsmall, map-get($grid-sizes, half))
+	(".grid-dynamic", $bp-small, map-get($grid-sizes, third))
+	(".grid-dynamic", $bp-medium, map-get($grid-sizes, fourth))
+);

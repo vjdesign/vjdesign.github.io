@@ -1,0 +1,87 @@
+/**
+ * Set dropdown link to relative positioning
+ */
+.dropdown-basic {
+	position: relative;
+}
+
+
+/**
+ * Expand/collapse icons
+ */
+.dropdown-basic > a .dropdown-show,
+.dropdown-basic > a .dropdown-hide,
+.js-drop .dropdown-basic > a.active .dropdown-show {
+    display: none;
+    visibility: hidden;
+    width: 0.5em;
+}
+
+.js-drop .dropdown-basic > a .dropdown-show,
+.js-drop .dropdown-basic > a.active .dropdown-hide {
+    display: inline-block;
+    visibility: visible;
+
+    @media (max-width: $bp-medium) {
+    	display: none;
+    	visibility: hidden;
+    }
+}
+
+
+/**
+ * Dropdown content
+ */
+.dropdown-menu-basic {
+	background-color: $color-white;
+	border: calc-em(1px) solid lighten( $color-gray-dark, 22% );
+	border-radius: calc-em(1px);
+	box-shadow: 0 calc-em(4px) calc-em(8px) rgba(0, 0, 0, 0.2);
+	box-sizing: border-box;
+	display: none;
+	float: left;
+	margin-top: calc-em(8px);
+	margin-left: 0;
+	min-width: 10em;
+	position: absolute;
+	text-align: left;
+	top: 100%;
+	visibility: hidden;
+	z-index: 1000;
+
+	&.active {
+		display: block;
+		padding: calc-em(8px);
+		visibility: visible;
+	}
+
+	&.dropdown-right {
+		left: auto;
+		right: 0;
+	}
+
+	ul,
+	ol {
+		list-style: none;
+		margin-left: 0;
+	}
+
+	/**
+	 * Switch up styling on small viewports
+	 */
+	@media (max-width: $bp-medium) {
+		.js-drop & {
+			border: none;
+			box-shadow: none;
+			display: block;
+			float: none;
+			min-width: 100%;
+			position: static;
+			visibility: visible;
+
+			&.active {
+				padding: 0;
+			}
+		}
+	}
+}
