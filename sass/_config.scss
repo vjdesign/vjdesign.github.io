@@ -1,8 +1,19 @@
 // @section Configuration Settings
+/*
+Pink - #71055B
+Orange - #A32727
+Blue - #2D5B8B
+Aqua - #055F5C
+Green - #2C5F2C
+Grey Light - #555555
+Grey Dark - #333333
+
+*/
+
 
 // Colors - https://color.adobe.com/sun-splash-color-theme-1568873/?showPublished=true
-$color-primary: #B11030; // was ed4d64 was cd4f44
-$color-secondary: darkslateblue;
+$color-primary: #71055B; // was ed4d64 was cd4f44
+$color-secondary: #055F5C;
 $color-black: #272727;
 $color-white: #ffffff;
 
@@ -14,9 +25,9 @@ $color-code: #dd1144;
 $color-gray-dark: #808080;
 $color-gray-light: #e5e5e5;
 
-$color-link: $color-primary;
+$color-link: #2D5B8B;
 $color-button: $color-primary;
-$color-info: #0088cc; // Blue
+$color-info: #055F5C; // Blue
 
 // Font Stacks
 $font-primary: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
